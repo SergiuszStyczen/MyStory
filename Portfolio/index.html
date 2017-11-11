@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sergiusz Styczeń - Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/jquery.pagepiling.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Alex+Brush&amp;subset=latin-ext" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Vollkorn+SC&amp;subset=latin-ext" rel="stylesheet">
+
+</head>
+
+<body>
+  <div id="loader" class="loader">
+    <div class="loader-wrapper">
+      <p>S</p>
+    </div>
+  </div>
+  <div id="pagepiling">
+    <div class="section home">
+      <div class="inner">
+        <div class="text-wrapper">
+          <h1>Welcome to my World.</h1>
+          <p>Sergiusz. Styczeń.</p>
+          <p>Front-end. Developer.</p>
+          <p>Scroll.</p>
+          <p class="pointer">&verbar;</p>
+        </div>
+      </div>
+    </div>
+    <div class="section about">
+      <div class="inner">
+        <div class="text-wrapper">
+          <div class="click click_about">
+            <h2>Click.</h2>
+            <p>wherever you like.</p>
+            <p>learn about me.</p>
+            <p class="pointer">&verbar;</p>
+          </div>
+          <p class="about_text"></p>
+        </div>
+      </div>
+    </div>
+    <div class="section skills">
+      <div class="inner">
+        <div class="text-wrapper">
+          <div class="click click_skills">
+            <h2>You managed.</h2>
+            <span>Congratulations.</span><br>
+            <span>Now click.</span>
+            <p class="pointer">&verbar;</p>
+          </div>
+          <div class="skills_text hidden clear">
+            <div class="col col-left">
+              <h3>Skills:</h3>
+              <ul>
+                <li>
+                  <i class="li_logo fa fa-html5" aria-hidden="true"></i><span>HTML5</span>
+                </li>
+                <li>
+                  <i class="li_logo fa fa-css3" aria-hidden="true"></i><span>CSS3</span>
+                </li>
+                <li>
+                  <i class="li_logo fa fa-code" aria-hidden="true"></i><span>JavaScript</span>
+                </li>
+                <li>
+                  <i class="li_logo fa fa-wifi" aria-hidden="true"></i><span>Jquery</span>
+                </li>
+                <li>
+                  <i class="li_logo fa fa-ravelry" aria-hidden="true"></i><span>React.js</span>
+                </li>
+              </ul>
+            </div>
+            <div class="col col-right">
+              <h3>Other:</h3>
+              <ul>
+                <li>
+                  <i class="li_logo fa fa-git-square" aria-hidden="true"></i><span>Git</span>
+                </li>
+                <li>
+                  <i class="li_logo fa fa-database" aria-hidden="true"></i><span>SQL</span>
+                </li>
+                <li>
+                  <i class="li_logo fa fa-beer" aria-hidden="true"></i><span>Gulp</span>
+                </li>
+                <li>
+                  <i class="li_logo fa fa-terminal" aria-hidden="true"></i><span>NPM</span>
+                </li>
+                <li>
+                  <i class="li_logo fa fa-briefcase" aria-hidden="true"></i><span>Scrum</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section contact">
+      <div class="inner">
+        <div class="text-wrapper">
+          <div class="click click_contact">
+            <h2>The End? No.</h2>
+            <span>You know the drill.</span><br>
+            <span>Just click.</span>
+            <p class="pointer">&verbar;</p>
+          </div>
+          <div class="contact_text_wrapper hidden">
+            <p class="contact_text">Contact me.</p>
+
+            <form method="POST" name="contactform" action="php/contact-form-handler.php">
+            <p>
+            <label for='name'>Your Name:</label> <br>
+            <input type="text" name="name">
+            </p>
+            <p>
+            <label for='email'>Email Address:</label> <br>
+            <input type="text" name="email"> <br>
+            </p>
+            <p>
+            <label for='message'>Message:</label> <br>
+            <textarea name="message"></textarea>
+            </p>
+            <input class="submit_btn" type="submit" value="Submit"><br>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.pagepiling.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+  <script type="text/javascript" src="js/plugin.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

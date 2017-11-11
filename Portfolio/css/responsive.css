@@ -1,0 +1,44 @@
+@media (max-width: 770px) {
+  .col h3 {
+    font-size: 43px;
+  }
+  .col li {
+    margin: 60px 0;
+  }
+  .col li span {
+    font-size: 20px;
+  }
+  .contact_text {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 420px) {
+  .about_text {
+    font-size: 17px;
+  }
+  .col h3 {
+    font-size: 35px;
+  }
+  .col li {
+    margin: 50px 0;
+  }
+  .col li span {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 330px) {
+  .about_text {
+    font-size: 15px;
+  }
+  .col h3 {
+    font-size: 30px;
+  }
+  .col li {
+    margin: 37px 0;
+  }
+  .col li span {
+    font-size: 12px;
+  }
+}
